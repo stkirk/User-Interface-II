@@ -55,7 +55,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html{
@@ -201,25 +201,29 @@ footer div {
     padding: 3%;
 }
 
-.contact {
+.contact, .social{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
 
-footer .contact a, footer .social a {
+.contact a, .social a {
     color: whitesmoke;
     background-color: #3CB371;
-    padding: 10%;
+    padding: 4%;
     border-radius: 5px;
 }
 
-footer .contact a:hover, footer .social a:hover {
+.contact a:hover, .social a:hover {
     color: #3CB371;
     background-color: whitesmoke;
 }
 
 footer .contact h3 {
     font-size: 2rem;
+    color: whitesmoke;
 }
+
+
