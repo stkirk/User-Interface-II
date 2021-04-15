@@ -48,28 +48,30 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-    max-width: 100%;
-}
 /****** End Meyer Reset ******/
 
 /***** Starter Styles ******/
 
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
 html{
     font-size: 62.5%;
-    border: 1px solid grey;
 }
 
 body{
     font-size: 1.6rem;
-    font-family: sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     line-height: 1.5;
 }
 
 h1{
-    font-family: serif;
+    font-family: 'Zen Dots', cursive;
     font-size: 5rem;
+    color: #3CB371;
 }
 
 section{
@@ -82,3 +84,32 @@ a {
     text-decoration: none;
 }
 
+/****** HEADER STYLES ******/
+
+header {
+    background-color: #FFFAF0;
+}
+
+.headerdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerdiv nav {
+    margin-left: 15%;
+}
+
+.headerdiv h1 {
+    margin-left: 5%;
+}
+
+nav a {
+    display: inline-block;
+    width: 10%;
+    padding: 1%;
+    background-color: #3CB371;
+    color: #FFFAF0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+}
