@@ -66,6 +66,7 @@ body{
     font-size: 1.6rem;
     font-family: 'Julius Sans One', sans-serif;
     line-height: 1.5;
+    background: whitesmoke;
 }
 
 h1{
@@ -169,4 +170,22 @@ nav a:hover {
 .myinfo p {
     line-height: 2;
     padding: 2%;
+}
+
+/***** GALLERY SECTION *****/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery .photo {
+    margin: 0.5%;
+}
+
+.gallery h2 {
+    text-align: center;
+    padding: 3%;
 }
