@@ -115,7 +115,7 @@ nav a {
     padding: 1%;
     background-color: #3CB371;
     color: #FFFAF0;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     font-size: 1.8rem;
 }
@@ -127,5 +127,46 @@ nav a:hover {
 
 /***** TOP SECTION STYLES *****/
 
+.top {
+    display: flex;
+    justify-content: space-around;
+    line-height: 3;
+}
 
+.left-side {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
 
+.right-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinfo {
+    text-align: center;
+}
+
+.button {
+    padding: 4%;
+}
+
+.myinfo div a {
+    background-color:#3CB371 ;
+    color: whitesmoke;
+    padding: 3% 7%;
+    border-radius: 5%;
+}
+
+.myinfo div a:hover {
+    background-color: #FFFAF0;
+    color: #3CB371;
+}
+
+.myinfo p {
+    line-height: 2;
+    padding: 2%;
+}
