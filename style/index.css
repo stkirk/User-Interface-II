@@ -118,11 +118,13 @@ nav a {
     border-radius: 5px;
     text-align: center;
     font-size: 1.8rem;
+    transition: background-color 1s ease;
 }
 
 nav a:hover {
     background-color: whitesmoke;
     color: #3CB371;
+
 }
 
 /***** TOP SECTION STYLES *****/
@@ -160,12 +162,15 @@ nav a:hover {
     background-color:#3CB371 ;
     color: whitesmoke;
     padding: 3% 7%;
-    border-radius: 5%;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+
 }
 
 .myinfo div a:hover {
-    background-color: #FFFAF0;
+    background-color: #DCDCDC;
     color: #3CB371;
+    
 }
 
 .myinfo p {
@@ -222,6 +227,7 @@ footer div {
 .contact a:hover, .social a:hover {
     color: #3CB371;
     background-color: whitesmoke;
+    transition: background-color 1s ease;
 }
 
 footer .contact h3 {
