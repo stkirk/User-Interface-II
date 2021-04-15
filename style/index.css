@@ -130,6 +130,7 @@ nav a:hover {
 
 .top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     line-height: 2;
 }
@@ -179,10 +180,11 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    padding: 5% 0;
 }
 
 .gallery .photo {
-    margin: 0.5%;
+    margin: 1%;
 }
 
 .gallery h2 {
