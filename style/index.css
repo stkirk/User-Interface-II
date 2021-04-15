@@ -131,7 +131,7 @@ nav a:hover {
 .top {
     display: flex;
     justify-content: space-around;
-    line-height: 3;
+    line-height: 2;
 }
 
 .left-side {
@@ -152,7 +152,7 @@ nav a:hover {
 }
 
 .button {
-    padding: 4%;
+    padding: 3%;
 }
 
 .myinfo div a {
@@ -168,7 +168,7 @@ nav a:hover {
 }
 
 .myinfo p {
-    line-height: 2;
+    line-height: 1.5;
     padding: 2%;
 }
 
