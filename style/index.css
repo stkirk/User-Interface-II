@@ -94,6 +94,7 @@ a {
 
 header {
     background-color: #708090;
+    padding: 2%;
 }
 
 .headerdiv {
@@ -224,6 +225,7 @@ footer div {
 footer .contact h3 {
     font-size: 2rem;
     color: whitesmoke;
+    padding: 2%;
 }
 
 
