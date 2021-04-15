@@ -93,8 +93,7 @@ a {
 /****** HEADER STYLES ******/
 
 header {
-    background-color: #FFF5EE
-    ;
+    background-color: #708090;
 }
 
 .headerdiv {
@@ -115,7 +114,7 @@ nav a {
     width: 10%;
     padding: 1%;
     background-color: #3CB371;
-    color: #FFFAF0;
+    color: whitesmoke;
     border-radius: 5px;
     text-align: center;
     font-size: 1.8rem;
@@ -188,4 +187,39 @@ nav a:hover {
 .gallery h2 {
     text-align: center;
     padding: 3%;
+}
+
+/***** FOOTER STYLES ******/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #708090;
+}
+
+footer div {
+    padding: 3%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contact a, footer .social a {
+    color: whitesmoke;
+    background-color: #3CB371;
+    padding: 10%;
+    border-radius: 5px;
+}
+
+footer .contact a:hover, footer .social a:hover {
+    color: #3CB371;
+    background-color: whitesmoke;
+}
+
+footer .contact h3 {
+    font-size: 2rem;
 }
