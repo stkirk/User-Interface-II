@@ -130,7 +130,6 @@ nav a:hover {
 /***** TOP SECTION STYLES *****/
 
 .top {
-    border: 1px solid grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
