@@ -131,13 +131,14 @@ nav a:hover {
 
 .top {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
     line-height: 2;
 }
 
 .left-side {
-    width: 45%;
+    width: 80%;
     display: flex;
     align-items: center;
 }
@@ -151,6 +152,7 @@ nav a:hover {
 
 .myinfo {
     text-align: center;
+    padding: 4%;
 }
 
 .button {
@@ -175,25 +177,6 @@ nav a:hover {
 .myinfo p {
     line-height: 1.5;
     padding: 2%;
-}
-
-/***** GALLERY SECTION *****/
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 5% 0;
-}
-
-.gallery .photo {
-    margin: 1%;
-}
-
-.gallery h2 {
-    text-align: center;
-    padding: 3%;
 }
 
 /***** FOOTER STYLES ******/
@@ -234,5 +217,3 @@ footer .contact h3 {
     color: whitesmoke;
     padding: 2%;
 }
-
-
