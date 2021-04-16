@@ -1,1 +1,238 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****** End Meyer Reset ******/
+
+/***** Starter Styles ******/
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Julius Sans One', sans-serif;
+    line-height: 1.5;
+    background: whitesmoke;
+}
+
+h1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 5rem;
+    color: #3CB371;
+}
+
+h2 {
+    font-family: 'Zen Dots', cursive;
+    font-size: 2rem;
+}
+
+section{
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/****** HEADER STYLES ******/
+
+header {
+    background-color: #708090;
+    padding: 2%;
+}
+
+.headerdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerdiv nav {
+    margin-left: 15%;
+}
+
+.headerdiv h1 {
+    margin-left: 5%;
+}
+
+nav a {
+    width: 10%;
+    padding: 1%;
+    background-color: #3CB371;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    transition: background-color 1s ease;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color: #3CB371;
+
+}
+
+/***** TOP SECTION STYLES *****/
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 2;
+}
+
+.left-side {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.right-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinfo {
+    text-align: center;
+}
+
+.button {
+    padding: 3%;
+}
+
+.myinfo div a {
+    background-color:#3CB371 ;
+    color: whitesmoke;
+    padding: 3% 7%;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+
+}
+
+.myinfo div a:hover {
+    background-color: #DCDCDC;
+    color: #3CB371;
+    
+}
+
+.myinfo p {
+    line-height: 1.5;
+    padding: 2%;
+}
+
+/***** GALLERY SECTION *****/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.gallery .photo {
+    margin: 1%;
+}
+
+.gallery h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+/***** FOOTER STYLES ******/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #708090;
+}
+
+footer div {
+    padding: 3%;
+}
+
+.contact, .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.contact a, .social a {
+    color: whitesmoke;
+    background-color: #3CB371;
+    padding: 4%;
+    border-radius: 5px;
+}
+
+.contact a:hover, .social a:hover {
+    color: #3CB371;
+    background-color: whitesmoke;
+    transition: background-color 1s ease;
+}
+
+footer .contact h3 {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 2%;
+}
+
+
