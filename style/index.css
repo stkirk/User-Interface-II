@@ -280,6 +280,7 @@ footer .contact h3 {
 
     footer .contact h3 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .social {
@@ -287,3 +288,33 @@ footer .contact h3 {
     }
 }
 
+@media(max-width:500px) {
+
+    .headerdiv {
+        align-items: center;
+    } 
+
+    .headerdiv nav, .headerdiv h1 {
+        margin: 1% 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    .right-side {
+        text-align: center;
+    }
+
+}
