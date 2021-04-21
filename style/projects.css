@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 1px solid grey;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -55,7 +55,6 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    /* border: 1px solid grey; */
 }
 
 html{
@@ -139,6 +138,7 @@ nav a:hover {
 
 .gallery .photo {
     margin: 1%;
+
 }
 
 .gallery h2 {
@@ -183,4 +183,64 @@ footer .contact h3 {
     font-size: 2rem;
     color: whitesmoke;
     padding: 2%;
+}
+
+/***** 800px STYLES *****/
+
+@media (max-width:800px){
+
+    .photo {
+        width: 45%;
+    }
+
+    .photo img {
+       width: 100%; 
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 4% 0;
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    footer .contact h3 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .social {
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+
+    .headerdiv {
+        align-items: center;
+    } 
+
+    .headerdiv nav, .headerdiv h1 {
+        margin: 1% 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    nav a {
+        width: 100%;
+        margin: 1% 0;
+    }
+
 }
