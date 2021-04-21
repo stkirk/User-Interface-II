@@ -192,6 +192,7 @@ nav a:hover {
 
 .gallery .photo {
     margin: 1%;
+
 }
 
 .gallery h2 {
@@ -257,6 +258,14 @@ footer .contact h3 {
 
     .myinfo {
         padding: 3% 0;
+    }
+
+    .photo {
+        width: 45%;
+    }
+
+    .photo img {
+       width: 100%; 
     }
 
     footer {
